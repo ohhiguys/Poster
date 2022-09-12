@@ -76,7 +76,7 @@ public class PosterManagerTest {
         manager.add(film10);
         manager.add(film11);
 
-        PosterData[] expected = {film10, film9, film8, film7, film6, film5, film4, film3, film2, film1};
+        PosterData[] expected = {film11, film10, film9, film8, film7, film6, film5, film4, film3, film2};
         PosterData[] actual = manager.findLast();
     }
 
